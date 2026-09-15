@@ -26,7 +26,6 @@ virtual-thoughscape/
 generated/
 output/
 outputs/
-*.png
 *.jpg
 *.jpeg
 *.webp
@@ -81,7 +80,7 @@ htmlcov/
 .ipynb_checkpoints/
 
 wallpaper.png
-*.png
+
 *.jpg
 *.jpeg
 *.webp
