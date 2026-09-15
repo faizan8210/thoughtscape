@@ -12,16 +12,7 @@ The system understands the thought, interprets its emotional and visual context,
 
 ## 🖥️ ThoughtScape in Action
 
-<p align="center">
-  <img src="docs/assets/thoughtscape-app.png"
-       alt="ThoughtScape Windows Desktop Application"
-       width="900">
-</p>
-
-<p align="center">
-  <i>Express a thought. Let AI understand it. Transform your desktop.</i>
-</p>
-
+![ThoughtScape Application](docs/assests/thoughtscape-app.png)
 
 ## 💡 The Idea
 
@@ -471,115 +462,6 @@ feature
 
 Contains the stable version of ThoughtScape.
 
-### `feature`
-
-Used for active development.
-
-Development changes are tested before being merged into `main`.
-
-As the project and contributor base grow, development can move toward short-lived branches such as:
-
-```text
-feature/speech-to-text
-feature/image-generation
-feature/global-hotkey
-
-fix/microphone-error
-fix/azure-timeout
-
-refactor/ui-components
-```
-
-The intended workflow is:
-
-```text
-Create Branch
-      ↓
-Develop
-      ↓
-Test
-      ↓
-Commit
-      ↓
-Push
-      ↓
-Pull Request
-      ↓
-Review / CI
-      ↓
-Merge
-      ↓
-main
-```
-
----
-
-# 🧪 Testing
-
-ThoughtScape is being structured to support automated testing.
-
-Example:
-
-```text
-tests/
-├── test_router.py
-├── test_feeling_interpreter.py
-├── test_prompt_builder.py
-└── test_services.py
-```
-
-Run tests using:
-
-```bash
-pytest
-```
-
----
-
-# 🗺️ Roadmap
-
-- [x] Initial Windows desktop UI
-- [x] Natural-language thought input
-- [x] Intent routing
-- [x] Feeling and visual interpretation
-- [x] AI prompt generation
-- [x] Azure Speech-to-Text integration
-- [ ] Improve real-time speech transcription
-- [ ] Complete image-generation integration
-- [ ] Complete Windows wallpaper integration
-- [ ] Global push-to-talk shortcut
-- [ ] Automated test coverage
-- [ ] GitHub Actions CI/CD
-- [ ] Windows executable packaging
-- [ ] Windows installer
-- [ ] Application update mechanism
-
----
-
-# 🔒 Security
-
-ThoughtScape interacts with external AI services and therefore requires credentials to be handled securely.
-
-Never commit:
-
-```text
-.env
-API keys
-Azure credentials
-Access tokens
-Connection strings
-Private certificates
-```
-
-Secrets should be provided through environment variables or another secure configuration mechanism.
-
-If you discover a security vulnerability, please avoid publicly disclosing sensitive vulnerability details through a GitHub issue.
-
-A dedicated vulnerability-reporting process can be found in `SECURITY.md`.
-
----
-
-# 🤝 Contributing
 
 ThoughtScape is under active development.
 
