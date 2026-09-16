@@ -1,0 +1,41 @@
+QFrame {
+    background-color: #151824;
+    border-right: 1px solid #292d3d;
+}
+
+QLabel#title {
+    color: #f4f1ff;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+QLabel#subtitle {
+    color: #a99fc5;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+QPushButton {
+    background-color: transparent;
+    color: #c9c4dc;
+
+    border: none;
+    border-radius: 10px;
+
+    padding: 12px 14px;
+
+    text-align: left;
+
+    font-size: 15px;
+}
+
+QPushButton:hover {
+    background-color: #25233d;
+    color: #ffffff;
+}
+
+QPushButton#active {
+    background-color: #302c50;
+    color: #ffffff;
+}

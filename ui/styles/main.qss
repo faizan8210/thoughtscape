@@ -1,0 +1,103 @@
+QWidget {
+    background-color: #0d0f16;
+    color: #f4f1ff;
+    font-family: "Segoe UI";
+}
+
+QLabel#eyebrow {
+    background: transparent;
+    color: #aaa1c8;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+QLabel#heading {
+    background: transparent;
+    color: #f5f2ff;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+QLabel#input_label {
+    background: transparent;
+    color: #c5bed8;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+QLabel#helper {
+    background: transparent;
+    color: #8f899f;
+    font-size: 13px;
+}
+
+QLabel#status {
+    background: transparent;
+    color: #a98cff;
+    font-size: 13px;
+}
+
+QLabel#landscape_title {
+    background: transparent;
+    color: #eeeaff;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+QFrame#input_card {
+    background-color: #171a25;
+    border: 1px solid #292d3c;
+    border-radius: 18px;
+}
+
+QTextEdit {
+    background-color: #0e1018;
+    color: #eeeaff;
+    border: 1px solid #8d65ff;
+    border-radius: 12px;
+    padding: 14px;
+    font-size: 16px;
+}
+
+QTextEdit:focus {
+    border: 1px solid #a27aff;
+}
+
+QPushButton#mic_button {
+    background-color: #2b2846;
+    color: #e8e1ff;
+    border: 1px solid #403966;
+    border-radius: 10px;
+    padding: 10px 18px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+QPushButton#mic_button:hover {
+    background-color: #353052;
+}
+
+QPushButton#generate_button {
+    background-color: #9b72ff;
+    color: #120d20;
+    border: none;
+    border-radius: 11px;
+    padding: 10px 22px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+QPushButton#generate_button:hover {
+    background-color: #ad8aff;
+}
+
+QPushButton#generate_button:disabled {
+    background-color: #51486d;
+    color: #aaa4b7;
+}
+
+QFrame#landscape_card {
+    background-color: #1b2440;
+    border: none;
+    border-radius: 18px;
+}
